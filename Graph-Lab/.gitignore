@@ -1,0 +1,19 @@
+# dependencies and build output
+node_modules/
+app/node_modules/
+dist/
+app/dist/
+
+# the bundled compiler is too big for the repository; it ships in the release zip
+mingw/
+
+# release archives (upload these under Releases, not into the repository)
+*.zip
+*.7z
+*.exe
+
+# test helper and OS clutter
+app/selftest.js
+Thumbs.db
+desktop.ini
+.DS_Store
